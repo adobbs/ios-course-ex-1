@@ -5,17 +5,17 @@
 //  Created by Andy Dobbs on 1/3/24.
 //
 
+// Make an HStack with two circles and a rectangle
+
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        HStack {
+            Circle()
+            Circle()
+            Rectangle()
         }
-        .padding()
     }
 }
 
