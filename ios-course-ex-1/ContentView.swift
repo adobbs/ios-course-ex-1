@@ -11,11 +11,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
-            Circle()
-            Circle()
-            Rectangle()
-        }
+        Text("Tap me")
+            .font(.largeTitle)
+            .padding()
+            .background(Color.green)
+            .foregroundStyle(.white)
+            .clipShape(RoundedRectangle(cornerRadius: 20))
+            .kerning(/*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
     }
 }
 
